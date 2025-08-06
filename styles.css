@@ -1,71 +1,88 @@
-      * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-      }
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
 
-      .body {
-        display: flex;
-        flex-direction: column;
-        height: 100vh;
-        font-family: Poppins, serif;
-        max-width: 736px;
-        background-color: #F8FAFC;
-      }
+.body {
+	display: flex;
+	flex-direction: column;
 
-      .header {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        gap: 2.75em;
+  margin: 0 auto;
+	height: 100vh;
+	font-family: Poppins, serif;
+	max-width: 736px;
+	background-color: #f8fafc;
+}
 
-        margin-top: 2.75em;
-      }
+.header {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 2.75em;
 
-      .header-title {
-        font-size: 2.25em;
-        font-weight: 600;
-        text-align: center;
-      }
+	margin-top: 2.75em;
+}
 
-      .header-seperator {
-        margin-bottom: 2.75em;
-      }
+.header-title {
+	font-size: 2.25em;
+	font-weight: 600;
+	text-align: center;
+}
 
-      .main {
-        display: flex;
-        flex-direction: column;
-        padding: 0 2em;
-        gap: 3.25em;
-      }
+.header-seperator {
+	margin-bottom: 2.75em;
+}
 
-      .main-block {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 2.75em;
-      }
+.main {
+	display: flex;
+	flex-direction: column;
+	padding: 0 2.5em;
+	gap: 3em;
+  margin-bottom: 2.75em;
+}
 
-      .main-block img {
-        border-radius: 1em;
-        height: 140px;
-        width: 140px;
-      }
+.main-block {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 2.75em;
+}
 
-      .main-block_right {
-        display: flex;
-        flex-direction: column;
-        gap: 1em;
-      }
+.main-block img {
+	border-radius: 1em;
+	height: 140px;
+	width: 140px;
+}
 
-      .main-block_right h3 {
-        font-size: 1.25em;
-        font-weight: 600;
-      }
+.main-block_right {
+	display: flex;
+	flex-direction: column;
+	gap: 1em;
+}
 
-      .main-block_right p {
-        font-size: .875em;
-        font-weight: 500;
-        color: #4D5562;
-      }
+.main-block_right h3 {
+	font-size: 1.25em;
+	font-weight: 600;
+}
+
+.main-block_right p {
+	font-size: 0.875em;
+	font-weight: 500;
+	color: #4d5562;
+}
+
+@media screen and (min-width: 641px) and (max-width: 1024px) {
+	.main-block img {
+		height: 150px;
+		width: 150px;
+	}
+}
+
+@media screen and (min-width: 1025px) {
+	.main-block img {
+		height: 160px;
+		width: 160px;
+	}
+}
