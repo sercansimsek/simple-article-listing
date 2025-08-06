@@ -5,5 +5,67 @@
       }
 
       .body {
+        display: flex;
+        flex-direction: column;
         height: 100vh;
+        font-family: Poppins, serif;
+        max-width: 736px;
+        background-color: #F8FAFC;
+      }
+
+      .header {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 2.75em;
+
+        margin-top: 2.75em;
+      }
+
+      .header-title {
+        font-size: 2.25em;
+        font-weight: 600;
+        text-align: center;
+      }
+
+      .header-seperator {
+        margin-bottom: 2.75em;
+      }
+
+      .main {
+        display: flex;
+        flex-direction: column;
+        padding: 0 2em;
+        gap: 3.25em;
+      }
+
+      .main-block {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2.75em;
+      }
+
+      .main-block img {
+        border-radius: 1em;
+        height: 140px;
+        width: 140px;
+      }
+
+      .main-block_right {
+        display: flex;
+        flex-direction: column;
+        gap: 1em;
+      }
+
+      .main-block_right h3 {
+        font-size: 1.25em;
+        font-weight: 600;
+      }
+
+      .main-block_right p {
+        font-size: .875em;
+        font-weight: 500;
+        color: #4D5562;
       }
